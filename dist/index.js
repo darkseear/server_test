@@ -10,3 +10,4 @@ app.get('/', function (request, response) {
     response.send('hello');
 });
 app.listen(port, function () { return console.log("Running on port ".concat(port)); });
+//# sourceMappingURL=index.js.map
