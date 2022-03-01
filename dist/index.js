@@ -17,6 +17,6 @@ var port = process.env.PORT;
 app.get('/appget/', function (request, response) {
     response.send('hello');
 });
-app.use(express_1["default"].static('../typescript_for_test2/build'));
+app.use(express_1["default"].static('public'));
 app.listen(port, function () { return console.log("Running on port ".concat(port)); });
 //# sourceMappingURL=index.js.map
